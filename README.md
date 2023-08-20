@@ -1,6 +1,6 @@
 # Architecture
 
-Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
+## Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 Why did the backend use a NoSQL MongoDB database?
 
 Travlr Getaways is a web application that enables secure booking of trips by travelers. The user interface is designed to use a backend database and logic to ensure the requests are processed as expected. 
@@ -14,7 +14,7 @@ The backend used a NoSQL MongoDB database because of the interent ease to modify
 
 # Functionality
 
-How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?
+## How is JSON different from Javascript and how does JSON tie together the frontend and backend development pieces?
 Provide instances in the full stack process when you refactored code to improve functionality and efficiencies, and name the benefits that come from reusable user interface (UI) components.
 
 JSON is a industry standard method to arrange data from objects that can be interpreted by Javascript and then be developed into a Javascript object. This allows Javascript to gather the data and interpret it into an object using the buildin functionality of Javascript. The benefits of this allow the data from the front end and back end to communicated between the two with Javascript. The data can be stored and used in various ways thoughout the application.
@@ -23,11 +23,20 @@ Looking throughout the project history, an example where code was refactored is 
 
 # Testing
 
-Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
+## Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
+
+When considering the full stack application, the functionality to be tested is driven by the the expected information transfer. This done with methods such as GET, POST, and PUT  (via HTTP requests) when these request are reused to gather or modify data from the database/backend. These commands initiate backend fucntions of the database like (.findOne, .find, .create, etc.) 
+
+Endpoints are essentially the output of the internal functionality as seen by the client or the developer, and these should be tested to ensure that they display the data as expected.
+
+In this project, security was managed through user authenication for accessing and modifying secure data (trip details). Each one of these endpoints should be secured as to prevent unauthorized access and modification.
 
 # Reflection
 
-How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+## How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+
+This is a critical class to the completion of a Computer Science degree. This class is a great example of the knowledge and shared experience gained through SNHU. I have learned many new skills thorughout the course, such as the use of JavaScript, Angular, MongoDB, node.js, and GitHub. 
+
 
 # TravlrAdmin
 
